@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* transition: 1s; */
+  text-decoration: none;
+  list-style: none;
+}
+
+.logo img {
+  width: 100%;
+  height: 60px;
+  line-height: 70px;
+  padding: 0px 0px 0 100px;
+  margin: 0px 0 0 0;
+}
+nav {
+  width: 90%;
+  height: 60px;
+  margin: 0 5% 0 5%;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  box-shadow: 1px 1px 12px #ffffff;
+}
+.menubar ul li {
+  display: inline-block;
+  padding: 10px 20px 10px 0px;
+  margin: 18px 0 0 0;
+}
+.menubar ul li:hover {
+  background: #5825ff;
+}
+
+.menubar ul li a {
+  font-size: 15px;
+  font-weight: 550;
+  color: #111;
+  padding: 0 2px 0 2px;
+}
+.menubar ul li a:hover {
+  color: #ffffff;
+}
+.menubar .fas {
+  font-size: 13px;
+  color: #111;
+}
+.menubar .fas:hover {
+  color: #ffffff;
+}
+/* responsive menu bar icons */
+/* responsive menu bar icons */
+/* .responsive-menu-icons {
+    display: inline-block;
+    display: none;
+  } */
+.show {
+  display: none;
+}
+.hide {
+  display: none;
+}
+
+.empty {
+  width: 90%;
+  height: 3px;
+  background: #efeee7;
+  margin: auto;
+  position: fixed;
+  margin: 0 5% 0 5%;
+  top: 60px;
+  left: 0;
+}
+/* responsive menu bar icons */
+/* responsive menu bar icons */
+
+/* home secion start  */
+/* home secion start  */
+/* home secion start  */
+/* home secion start  */
+
+.home {
+  width: 90%;
+  height: 100vh;
+  margin: 10% 5% 10% 5%;
+  /* background: #5a4305; */
+  overflow: hidden;
+  position: absolute;
+}
+.heading {
+  text-align: center;
+  color: #5825ff;
+}
+.heading h1 {
+  font-size: 50px;
+  color: #5825ff;
+  margin-bottom: 30px;
+}
+.heading p {
+  text-align: justify;
+}

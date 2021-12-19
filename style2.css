@@ -1,0 +1,954 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+@keyframes animation {
+    0% {
+      transform: translatey(-10px);
+    }
+    50% {
+      transform: translatey(+10px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+  
+  /* @media (max-width: 1769px) {
+    .home .home-container .content {
+      margin: 0px 0 0 100px;
+    }
+  } */
+  
+  @media (max-width: 1557px) {
+    .home .home-container .image .back {
+      position: relative;
+      top: 0%;
+      left: 20%;
+      position: absolute;
+      display: none;
+    }
+    .home .home-container .image .font {
+      z-index: 1;
+      top: 0%;
+      left: 0%;
+      position: relative;
+    }
+    .home .home-container .content {
+      margin: 0px 0 0 100px;
+      width: 50%;
+      height: auto;
+    }
+
+    
+    .home .home-container .content h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: crimson;
+  }
+  .home .home-container .content p {
+    /* padding-left: 45px; */
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .logo img {
+      padding: 0px 0px 0 100px;
+    }
+   
+
+
+    /* home  */
+    /* home  */
+    /* home  */
+
+
+    .about .about-container {
+     flex-wrap: wrap; 
+      /* flex-direction: column;  */
+      
+      width: 100%;
+      height: 500px;
+     
+      /* background: #ffff; */
+    }
+    .about .heading h2 {
+      font-size: 30px;
+      margin-bottom: 5px;
+      padding: 0 20px 0 20px;
+    }
+    .about .heading p {
+      margin-bottom: 18px;
+      opacity: 0.7;
+      padding: 0 20px 0 20px;
+    }
+    .about {
+      width: 100%;
+      height: 900px;
+      /* background: crimson; */
+    }
+
+
+
+    /* finance  */
+    /* finance  */
+    /* finance  */
+    /* finance  */
+
+
+ .finance .finance-container-count {
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+
+  
+  }
+  .finance {
+    width: 90%;
+    margin: 0 5% 20px 5%;
+    height: 140vh;
+    text-align: justify;   
+    
+  }
+  
+  
+  
+  
+  .finance .finance-container-count .text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+   padding: 0 30px 0 30px;
+  }
+  .finance .finance-container-count .text p {
+    padding: 0 30px 0 30px;
+    margin-bottom: 10px;
+    text-align: justify;
+  } 
+  .finance .finance-container-count .content-box {
+    width: 80%;
+    height: 500px;
+   
+  
+  }
+  .finance .finance-container-count .text{
+    /* height: 100vh; */
+    width: 100%;
+    padding: 50px 20px 0 30px;
+    /* padding-top: 50px; */
+  }
+  /* .text{
+      width: 50%;
+  } */
+
+  /* managing  */
+  /* managing  */
+  /* managing  */
+  /* ////////////// */
+  
+  .managing-content{
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 500px;
+    /* background: crimson; */
+    /* position: absolute; */
+  }
+  
+   .managing .managing-container {
+    flex-wrap: wrap;
+  } 
+  .managing {
+    width: 90%;
+    height: 800px;
+    margin: 0 5% 0 5%;
+    margin-bottom: 100px;
+   
+  }
+  
+  .managing .managing-container .managing-content {
+    width: 80%;
+    margin: 120px 100px 100px 150px;
+  }
+  
+  .managing .managing-container .managing-content p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .managing .managing-container .managing-content button {
+    width: 120px;
+    height: 40px;
+    
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid gray;
+  } 
+   .managing .managing-container .image img {
+    width: 71.8%;
+    height: 71.8%;
+    position: relative;
+    top:-6%;
+    left: 100%;
+    margin-top: 5.9%;
+    
+  } 
+
+
+  /* prize  */
+  /* prize  */
+  /* prize  */
+  /* prize  */
+
+  .prize .prize-container-box {
+  flex-wrap: wrap;
+   
+  }
+  .prize {
+    width: 90%;
+    height: 200vh;
+    margin: 0 5% 0 5%;
+    
+  }
+  
+
+  /* question  */
+  /* question  */
+  /* question  */
+  /* question  */
+
+
+
+  .question-box{
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+   
+  }
+  .question-box-one{
+    flex-direction: column;
+    width: 100%;
+    /* height: 100vh; */
+  }
+  .question-box-two{
+    width: 100%;
+  }
+  .question{
+    width: 90%;
+    height:100vh;
+  
+    /* background: crimson; */
+   
+  }
+  
+
+
+  /* team  */
+  /* team  */
+  /* team  */
+  /* team  */
+
+
+   .team{
+    width: 90%;
+    height: 250vh;
+    margin: 30px ;
+    margin: 0 0px 0 0px;
+    /* background: chartreuse; */
+    
+  }
+  .team .team-container{
+    width: 90%;
+    height: 200vh;
+    margin: 0px 0 0px 150px;
+    /* background: yellow; */
+    flex-wrap: wrap;
+   }
+   .team .team-heading{
+    text-align: center;
+    margin: 20px 0 0 0;
+    padding: 0 20px 0 20px;
+  }
+  .team .team-heading h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .team .team-heading p{
+    margin-bottom: 10px;
+    font-size: 15px;
+  
+  }
+
+
+  /* contact  */
+  /* contact  */
+  /* contact  */
+  /* contact  */
+
+  .contact-content{
+    flex-wrap: wrap;
+  }
+  .contact-form{
+    width: 100%;
+    height: 100vh;
+  
+    margin: 100px 0 0 0;
+    /* background: yellow; */
+  }
+  .contact-text{
+    width: 50%;
+    height: auto;
+   
+    /* background: cyan; */
+    margin: 110px 0 0 0 ;
+  }
+
+    
+    .contact-text h1{
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    .contact-text p{
+      margin-bottom: 17px;
+    }
+    .contact-text h2{
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+    .contact-text span{
+      font-size: 22px;
+      
+    }
+    .contact-text h3{
+      opacity: 0.5;
+    }
+    .contact-text h4{
+      font-size: 18px;
+      opacity: 0.6;
+    }
+    .footer-container {
+  
+      width: 100%;
+      flex-direction: column;
+      margin: 30px;
+     
+      }
+
+
+      /* footer  */
+      /* footer  */
+      /* footer  */
+
+      .footer{
+        width: 90%;
+        height: 250vh;
+        /* margin: 0 5% 0 5%; */
+    
+       
+      }
+      .content-one{
+        margin-top: 500px ;
+        width: 50%;
+        margin-left: 100px;
+  
+  
+      }
+      .content-two{
+        margin-top: 50px;
+        margin-left: 100px;
+      }
+      .content-three{
+        margin-top: 50px;
+        margin-left: 100px;
+  
+      }
+      .content-four{
+        margin-top: 50px;
+        margin-left: 100px;
+  
+      }
+      .btn-finance{
+        margin-left: 30px;
+      }
+      .question-heading {
+        left: 30%;
+      
+        margin: 40px 0 0 0;
+       
+    }
+  
+
+
+}
+
+  /* 1457 */
+  /* 1457 */
+  /* 1457 */
+  /* 1457 */
+  /* 1457 */
+  /* 1457 */
+  /* 1457 */
+
+@media (max-width: 1457px) {
+    .home .home-container .content {
+      margin: 0px 0 0 50px;
+    }
+    .logo img {
+      padding: 0px 0px 0 50px;
+    }
+    .home .home-container .content h1 {
+      font-size: 35px;
+      margin-bottom: 10px;
+      color: crimson;
+    }
+    .home .home-container .content p {
+      /* padding-left: 45px; */
+      font-size: 14px;
+      margin-bottom: 15px;
+      margin-right: 20px;
+    }
+    .menubar ul li a {
+      display: none;
+    }
+    .responsive-menu-icons {
+      display: block;
+    }
+ 
+  /* managing  */
+  /* managing  */
+    /* managing  */
+  /* managing  */
+
+    .managing .managing-container .image img {
+      width: 71.8%;
+      height: 71.8%;
+      position: relative;
+      top:-6%;
+      left: 100%;
+      margin-top: 5.9%;
+      
+    } 
+    .show {
+      display:block;
+    }
+  }
+
+  
+  /* 1166 */
+  /* 1166 */
+  /* 1166 */
+  /* 1166 */
+  /* 1166 */
+  /* 1166 */
+
+
+
+
+  @media (max-width: 1166px) {
+    .home .home-container .image .font {
+      z-index: 1;
+      top: 0%;
+      left: -10%;
+      position: relative;
+    }
+    .home {
+      height: 200%;
+      margin: 0% 5% 0 5%;
+      background: #fefaef;
+    }
+    .home .home-container .content {
+      margin: 100px 0px 10px 100px;
+      width: 100%;
+    }
+    .home .home-container {
+      flex-direction: column;
+    }
+  
+    .home .home-container .content h1 {
+      font-size: 70px;
+      color: crimson;
+    }
+    .home .home-container .content p {
+      /* padding-left: 45px; */
+      font-size: 17px;
+      margin-bottom: 15px;
+    }
+
+    .team .team-container{
+      width: 90%;
+      height: 200vh;
+      margin: 0px 0 0px 10px;
+      /* background: yellow; */
+      flex-wrap: wrap;
+     }
+     .team .team-content {
+    margin: 0 0 0 10px;
+    }
+    .team .team-content-font {
+      width: 100%;
+      height: 100%;
+      background: url(/image/rayhan.JPG);
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      transition: 1s;
+      cursor: pointer;
+      z-index: 10;
+    }
+   
+  
+    /* managing  */
+    /* managing  */
+    /* managing  */
+    /* managing  */
+
+    .managing .managing-container .image img {
+      width: 71.8%;
+      height: 71.8%;
+      position: relative;
+      top:-6%;
+      left: 60%;
+      margin-top: 5.9%;
+      
+    } 
+    .home .home-container .image .font {
+      z-index: 1;
+      top: 0%;
+      left: -10%;
+      position: relative;
+    }
+    .home {
+      height: 200%;
+      margin: 0% 5% 0 5%;
+      background: #fefaef;
+    }
+    .home .home-container .content {
+      margin: 100px 0px 10px 100px;
+      width: 100%;
+      padding: 0 20px 0 20px;
+    }
+    .home .home-container {
+      flex-direction: column;
+    }
+  
+    .home .home-container .content h1 {
+      font-size: 45px;
+      color: crimson;
+    }
+    .home .home-container .content p {
+      /* padding-left: 45px; */
+      font-size: 15px;
+      margin-bottom: 15px;
+      padding: 0 40px 0 0px ;
+    }
+  }
+
+
+  /* 909 */
+  /* 909 */
+  /* 909 */
+  /* 909 */
+  /* 909 */
+  /* 909 */
+  /* 909 */
+  /* 909 */
+  /* 909 */
+
+
+
+  @media (max-width: 999px){
+    .managing .managing-container .image img {
+      width: 71.8%;
+      height: 71.8%;
+      position: relative;
+      top:25%;
+      left: 50%;
+      margin-top: 5.9%;
+      
+    } 
+    .managing .managing-container .managing-content {
+      width: 80%;
+      margin: 30px 30px 30px 30px;
+    }
+  
+
+   /* text  */
+   /* text  */
+   /* text  */
+
+
+    .text-one{
+      width: 100%;
+      height: 60px;
+     
+   
+    
+      padding: 0 0 0px 0px;
+      margin: 0px;
+     
+      
+    }
+    .text-one h1{
+      margin: 0 120px 0 10px ;
+      font-size: 17px;
+    }
+
+
+    /* home  */
+    /* home  */
+    /* home  */
+    /* home  */
+
+    .home .home-container .image .font {
+      z-index: 1;
+      top: 0%;
+      left: -7%;
+      position: relative;
+    }
+    .home {
+      height: 200%;
+      margin: 0% 5% 0 5%;
+      background: #fefaef;
+    }
+    .home .home-container .content {
+      margin: 100px 0px 10px 100px;
+      width: 100%;
+    }
+    .home .home-container {
+      flex-direction: column;
+    }
+  
+    .home .home-container .content h1 {
+      font-size: 40px;
+      color: crimson;
+    }
+    .home .home-container .content p {
+      /* padding-left: 45px; */
+      font-size: 17px;
+      margin-bottom: 15px;
+    }
+  }
+
+  /* 809 */
+  /* 809 */
+  /* 809 */
+  /* 809 */
+  /* 809 */
+  /* 809 */
+  /* 809 */
+
+
+
+  @media (max-width: 809px){
+    .managing .managing-container .image img {
+      width: 71.8%;
+      height: 71.8%;
+      position: relative;
+      top:20%;
+      left: 20%;
+      margin-top: 5.9%;
+      
+    } 
+    .managing .managing-container .managing-content {
+      width: 80%;
+      margin: 30px 30px 30px 30px;
+    }
+
+
+    /* prize  */
+    /* prize  */
+    /* prize  */
+
+    .prize {
+      width: 90%;
+      height: 300vh;
+      margin: 0 5% 0 5%;
+      
+    }
+    .text-one h1{
+      margin: 0 50px 0 10px ;
+      font-size: 15px;
+    }
+    .text-hide{
+      width: 90%;
+      display: none;
+      border: 1px solid #f8f9fe;
+      margin: 30px;
+      padding: 10px; 
+      background: #f8f9fe;
+    
+    }
+    .text-hide-two{
+   
+      width: 70%;
+  
+      margin: 10px;
+      padding: 0px; 
+    }
+    .text-hide-three{
+  
+  
+      width: 70%;
+     
+      margin: 10px;
+      padding: 0px; 
+    }
+    .text-hide-four{
+   
+      width: 70%;
+   
+      margin: 10px;
+      padding: 0px; 
+    }
+    .text-hide-five{
+      width: 70%;
+      margin: 30px;
+      padding:0px; 
+    }
+    .text-hide-six{
+     
+      width: 70%;
+  
+    
+      margin: 10px;
+      padding: 0px; 
+    }
+    .question-box-one{
+      width: 100%;
+      height: auto;
+    
+      /* background: chocolate; */
+    }
+    .question-heading{
+      text-align: center;
+      /* margin-top: 100px; */
+     
+      position: absolute;
+      margin: 5px 0 0 0;
+      left: 5%;
+      color: #5825ff;
+     
+    }
+    .team .team-container{
+      width: 90%;
+      height: 200vh;
+      margin: 0px 0 0px 50px;
+      /* background: yellow; */
+      flex-wrap: wrap;
+     }
+     .team .team-heading{
+      text-align: center;
+      margin: 30px 0 0 0;
+      padding: 0 20px 0 20px;
+    }
+    .team .team-heading h2{
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    .team .team-heading p{
+      margin-bottom: 10px;
+      font-size: 15px;
+    
+  }
+  .contact-text {
+    width: 100%;
+    height: 300px;
+    margin: 0 0 0 20px;
+   
+  }
+ 
+  .home .home-container .image .font {
+    z-index: 1;
+    top: 0%;
+    left: -0%;
+    position: relative;
+  }
+  .home {
+    height: 200%;
+    margin: 0% 5% 0 5%;
+    background: #fefaef;
+  }
+  .home .home-container .content {
+    margin: 100px 0px 10px 100px;
+    width: 100%;
+  }
+  .home .home-container {
+    flex-direction: column;
+  }
+  
+  .home .home-container .content h1 {
+    font-size: 30px;
+    padding-right: 20px;
+  }
+  .home .home-container .content p {
+    /* padding-left: 45px; */
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+  }
+  .question-heading {
+    left: 40%;
+  
+    margin: 10px 0 0 0;
+   
+  }
+  .question-heading {
+  left: 15%;
+
+  padding: 50px 0 0 0;
+  }
+ 
+
+  
+  /* 509 */
+  /* 509 */
+  /* 509 */
+  /* 509 */
+  /* 509 */
+
+
+
+
+@media (max-width: 650px){
+
+  .home .home-container .content h1 {
+    font-size: 35px;
+    /* color: crimson; */
+    color: darkblue;
+  }
+  .home .home-container .content p {
+    /* padding-left: 45px; */
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding-right: 30px;
+  }
+
+
+.footer-container {
+  
+  margin-left: -70px;
+
+}
+
+
+nav {
+    width: 95%;
+  
+    
+  }
+  .question-heading {
+    left: 8%;
+  
+    margin: 10px 0 0 0;
+   
+}
+
+.team .team-container{
+     
+  padding: 0 0 0 50px;
+ 
+
+ }
+
+} /* 509 */
+  /* 509 */
+
+
+  @media (max-width: 529px){
+    .managing .managing-container .image img {
+      width: 71.8%;
+      height: 71.8%;
+      position: relative;
+      top:10%;
+      left: 10%;
+      margin-top: 5.9%;
+      
+    } 
+    .managing .managing-container .managing-content {
+      width: 80%;
+      margin: 30px 30px 30px 30px;
+    }
+    .home .home-container .image .font {
+      z-index: 1;
+      top: 0%;
+      left: -10%;
+      position: relative;
+    }
+    .home {
+      height: 200%;
+      margin: 0% 5% 0 5%;
+      background: #fefaef;
+    }
+    .home .home-container .content {
+      margin: 100px 0px 10px 20px;
+      width: 100%;
+    }
+    .home .home-container {
+      flex-direction: column;
+    }
+  
+    .home .home-container .content h1 {
+      font-size: 40px;
+      color: crimson;
+    }
+    .home .home-container .content p {
+      /* padding-left: 45px; */
+      font-size: 15px;
+      margin-bottom: 35px;
+    }
+    .finance .finance-container-count .content-box {
+      width: 100%;
+      margin: 0 0 0 0 ;
+    padding-right: 30px;
+  
+     
+    }
+ 
+  .team .team-container{
+    padding: 0 0 0 10px;   
+   }
+
+
+  /* 401 */
+  /* 401 */
+  /* 401 */
+  /* 401 */
+  /* 401 */
+  /* 401 */
+  /* 401 */
+  /* 401 */
+}
+@media (max-width: 410px){
+    .managing .managing-container .image img {
+      width: 71.8%;
+      height: 71.8%;
+      position: relative;
+      top:10%;
+      left: 5%;
+      margin-top: 5.9%;
+      
+    } 
+    .managing .managing-container .managing-content {
+      width: 80%;
+      margin: 30px 30px 30px 30px;
+    }
+    .text-one h1{
+      margin: 0 50px 0 0px ;
+      font-size: 13px;
+    }
+    
+    
+    .claint{
+      
+      margin:  0 10px 0  30px;
+      
+      /* background: #5825ff; */
+      
+    }
+    .home .home-container .content p {
+      /* padding-left: 45px; */
+      font-size: 15px;
+      margin-bottom: 35px;
+    }
+
+
+  }
